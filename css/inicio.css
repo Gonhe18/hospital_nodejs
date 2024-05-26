@@ -1,6 +1,7 @@
 .tit_inicio {
    font-size: 1.5rem;
    text-align: center;
+   text-transform: uppercase;
 }
 
 .contenido_inicio p {
@@ -40,7 +41,9 @@
 @media screen and (min-width: 575px) {
    .tit_inicio {
       font-size: 1.8rem;
+      padding-bottom: 5px;
    }
+
    .bloque.parallax {
       height: 800px;
       background-position: 50% 50%;
