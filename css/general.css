@@ -8,7 +8,7 @@
 
 body {
 	min-height: 100vh;
-	background-color: #f5f2ebfa;
+	background-color: #F7EEDD;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -32,7 +32,8 @@ h6 {
 }
 
 .encabezado {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.349);
+	background-color: #ACE2E1;
+	/* border-bottom: 1px solid rgba(0, 0, 0, 0.349); */
 }
 
 .navbar div button {
@@ -40,18 +41,18 @@ h6 {
 	border: solid 1px black;
 }
 
-.collapse ul li a {
-	padding: 8px;
-}
-
 .activo {
-	background-color: rgba(216, 216, 216, 0.685);
+	background-color: #41C9E2;
 }
 
 .enlaces {
+	padding: 8px;
 	font-weight: bold;
 	font-size: 1rem;
 	color: black;
+	display: flex;
+	align-items: center;
+	gap: 5px;
 }
 
 .navbar-collapse {
@@ -75,17 +76,18 @@ h6 {
 }
 
 .pie_pagina {
-	background-color: #002b5b;
+	background-color: #ACE2E1;
 	display: flex;
 	flex-direction: column;
 }
 
 .pie_pagina p {
-	color: white;
+	color: rgb(63, 61, 61);
 	font-size: 0.75rem;
 	padding: 5px 0;
 	text-align: center;
 	margin: 0;
+	font-weight: 700;
 }
 
 .error_form {
@@ -105,6 +107,7 @@ h6 {
 	.navbar-collapse {
 		margin-bottom: 0;
 		margin-top: 0;
+		padding: 5px 0;
 	}
 
 	.pie_pagina p {
@@ -124,14 +127,6 @@ h6 {
 
 	.enlaces {
 		margin: 0 5px;
-	}
-
-	.collapse ul li:first-child {
-		border-left: 1px solid black;
-	}
-
-	.collapse ul li {
-		border-right: 1px solid black;
 	}
 
 	.navbar {
